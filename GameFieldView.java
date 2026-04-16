@@ -21,7 +21,7 @@ public class GameFieldView extends JPanel implements CellUpdateListener {
     private Map<Cell, CellWidget> _cellWidgets = new HashMap<>();
     private Timer _refreshTimer;
 
-    public GameFieldView(GameField field, Game game) {
+    public GameFieldView(GameField field, Game game) { // Первый коммит в ветку left
         _field = field;
         _game = game;
 
