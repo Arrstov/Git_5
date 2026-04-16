@@ -1,4 +1,4 @@
-package game.view;
+package game.view; // Добавлен первый коммит main
 
 import game.core.Game;
 import game.core.GameField;
