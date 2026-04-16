@@ -7,7 +7,7 @@ import game.model.Tile;
 import game.model.FreezeMine;
 
 import javax.swing.*;
-import java.awt.*;
+import java.awt.*; // Третий коммит в ветку main
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.HashMap;
