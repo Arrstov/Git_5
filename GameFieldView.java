@@ -238,7 +238,7 @@ public class GameFieldView extends JPanel implements CellUpdateListener {
         dialog.add(centerPanel, BorderLayout.CENTER);
         dialog.add(bottomPanel, BorderLayout.SOUTH);
 
-        dialog.setVisible(true);
+        dialog.setVisible(true); // Третий коммит в ветку right
     }
 
     private void restartGame() {
