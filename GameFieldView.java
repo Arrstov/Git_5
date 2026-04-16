@@ -27,7 +27,7 @@ public class GameFieldView extends JPanel implements CellUpdateListener {
 
         setLayout(new GridLayout(_field.getHeight(), _field.getWidth()));
 
-        Dimension fieldDimension = new Dimension(
+        Dimension fieldDimension = new Dimension( // Второй коммит в ветку left
                 CellWidget.CELL_SIZE * _field.getWidth(),
                 CellWidget.CELL_SIZE * _field.getHeight()
         );
