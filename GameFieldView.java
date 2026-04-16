@@ -46,7 +46,7 @@ public class GameFieldView extends JPanel implements CellUpdateListener {
                 widget.addMouseListener(new CellClickListener(cell));
                 add(widget);
                 _cellWidgets.put(cell, widget);
-            }
+            }  // Четвертый коммит в ветку left
         }
 
         setFocusable(true);
