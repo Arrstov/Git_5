@@ -247,7 +247,7 @@ public class GameFieldView extends JPanel implements CellUpdateListener {
             window.dispose();
         }
 
-        SwingUtilities.invokeLater(() -> {
+        SwingUtilities.invokeLater(() -> { // Четвертый коммит в ветку right
             GameFrame frame = new GameFrame();
             frame.setVisible(true);
         });
