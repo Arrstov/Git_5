@@ -229,7 +229,7 @@ public class GameFieldView extends JPanel implements CellUpdateListener {
         exitButton.addActionListener(e -> {
             dialog.dispose();
             System.exit(0);
-        });
+        }); // Второй коммит в ветку right
 
         bottomPanel.add(newGameButton);
         bottomPanel.add(exitButton);
