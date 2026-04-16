@@ -221,7 +221,7 @@ public class GameFieldView extends JPanel implements CellUpdateListener {
         exitButton.setFocusPainted(false);
         exitButton.setBorder(BorderFactory.createEmptyBorder(10, 25, 10, 25));
 
-        newGameButton.addActionListener(e -> {
+        newGameButton.addActionListener(e -> { // Первый коммит в ветку right
             dialog.dispose();
             restartGame();
         });
