@@ -13,7 +13,7 @@ import java.awt.event.MouseEvent;
 import java.util.HashMap;
 import java.util.Map;
 
-public class GameFieldView extends JPanel implements CellUpdateListener {
+public class GameFieldView extends JPanel implements CellUpdateListener { // Четвертый коммит в ветку main
 
     private final GameField _field;
     private final Game _game;
